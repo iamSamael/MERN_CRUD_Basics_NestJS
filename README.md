@@ -45,6 +45,23 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## API Endpoints
+create new user - http://localhost:3000/users/post
+  -pass in name, email, age from body
+
+get all users - http://localhost:3000/users/user
+
+get user by id - http://localhost:3000/users/user/{id}
+  -pass a user id to URL {id}
+
+update user by id - http://localhost:3000/users/post/{id}
+  -pass a user id to URL {id}
+  -then pass in fields(name, age, email) for updating from body
+
+delete a user - http://localhost:3000/users/delete/{id}
+  -pass a user id to URL {id}
+
+
 ## Test
 
 ```bash
@@ -58,16 +75,3 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
