@@ -46,7 +46,7 @@ $ npm run start:prod
 ```
 
 <hr/>
-## API Endpoints
+## API Endpoints<br/>
 create new user - http://localhost:3000/users/post<br/>
   -pass in name, email, age from body<br/><br/>
 
