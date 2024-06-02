@@ -45,21 +45,22 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+<hr/>
 ## API Endpoints
-create new user - http://localhost:3000/users/post
-  -pass in name, email, age from body
+create new user - http://localhost:3000/users/post<br/>
+  -pass in name, email, age from body<br/><br/>
 
-get all users - http://localhost:3000/users/user
+get all users - http://localhost:3000/users/user<br/><br/>
 
-get user by id - http://localhost:3000/users/user/{id}
-  -pass a user id to URL {id}
+get user by id - http://localhost:3000/users/user/{id}<br/>
+  -pass a user id to URL {id}<br/><br/>
 
-update user by id - http://localhost:3000/users/post/{id}
-  -pass a user id to URL {id}
-  -then pass in fields(name, age, email) for updating from body
+update user by id - http://localhost:3000/users/post/{id}<br/>
+  -pass a user id to URL {id}<br/>
+  -then pass in fields(name, age, email) for updating from body<br/><br/>
 
-delete a user - http://localhost:3000/users/delete/{id}
-  -pass a user id to URL {id}
+delete a user - http://localhost:3000/users/delete/{id}<br/>
+  -pass a user id to URL {id}<br/><br/>
 
 
 ## Test
