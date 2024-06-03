@@ -34,7 +34,7 @@ export class AppController {
   }
 
   @Put('/post/:id')
-  updateUser(@Param('id') id: string, @Body() body: any){
+  updateUser(@Param('id') id: string, @Body() body: CreateUserDto){
     return this.appService.updateUser(id, body)
   }
 
